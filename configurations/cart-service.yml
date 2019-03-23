@@ -1,1 +1,7 @@
 message: "Hello form Cart"
+
+catalog-service:
+  ribbon:
+    listOfServers: localhost:8010,localhost:8011
+#    eureka:
+#      enabled: false
