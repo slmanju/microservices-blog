@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cart-service
+
+server:
+  port: 8020
+
+catalog:
+  service:
+    id: http://localhost:8010/{id}
