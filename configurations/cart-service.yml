@@ -5,3 +5,8 @@ catalog-service:
     listOfServers: localhost:8010,localhost:8011
 #    eureka:
 #      enabled: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8030

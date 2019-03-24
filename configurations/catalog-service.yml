@@ -22,3 +22,8 @@ spring:
       settings:
         trace: false
         web-allow-others: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8030
